@@ -41,7 +41,7 @@ nav > ul >li > a{
 nav > ul >li:last-child > a{
     border: 1px solid black;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 nav > ul >li:last-child > a:hover{
     background-color: black;
@@ -68,14 +68,15 @@ nav > ul >li:last-child > a:hover{
     line-height: 1.5;
     margin-bottom: 40px;
     color: black;
-    font-size: 1.5fr;
+    font-size: 19px;
 }
 .btn-consult{
-    padding: 15px;
+    padding: 20px;
     background-color: var(--dark);
     color: var(--grey);
     border: none;
     border-radius: 10px;
+    font-size: 15px;
     
 }
 .btn-consult:hover{
@@ -94,4 +95,48 @@ nav > ul >li:last-child > a:hover{
 }
 .marcas img{
     cursor: pointer;
+}
+
+
+.box-services{
+    max-width:1200px ;
+    padding:40px 20px;
+    margin: 0 auto;
+}
+
+.description{
+    display: flex; 
+    gap: 30px;
+    align-items: center;
+}
+
+#services{
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--pink);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.text-descri{
+    font-size: 15px;
+    max-width: 60ch;
+}
+
+#cards{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+#imgs-card{
+    height: 150px;
+}
+.card1{
+    background-color: var(--grey);
+    display: flex;
+    box-shadow: 3px 3px 3px 3px  black;
+    border-radius: 20px;
+    width: 500px;
+    height: 250px;
 }
