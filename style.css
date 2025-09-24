@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+:root{
+    --dark: #191A23;
+    --pink: #FFA4A6;
+    --grey: #F3F3F3;
+}
+
+*{
+    margin: 0px;
+    text-decoration: none;
+    padding: 0;
+    font-family:"Space Grotesk", sans-serif; ;
+}
+
+header{
+    max-width:1200px ;
+    padding:40px 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+nav > ul >li{
+    margin-right: 30px;
+    
+}
+
+nav > ul >li > a{
+    color: black;
+}
+
+nav > ul >li:last-child > a{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 20px;
+}
+nav > ul >li:last-child > a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.container{
+    max-width:1200px ;
+    padding:40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title{
+    font-size: 50px;
+    max-width: 15ch;
+    margin-bottom: 40px;
+}
+.princ-text{
+    max-width: 45ch;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: black;
+    font-size: 1.5fr;
+}
+.btn-consult{
+    padding: 15px;
+    background-color: var(--dark);
+    color: var(--grey);
+    border: none;
+    border-radius: 10px;
+    
+}
+.btn-consult:hover{
+    border: 1px solid var(--dark);
+    background-color: transparent;
+    color: var(--dark);
+    transition: 0.7s;
+}
+.marcas{
+    max-width:1200px ;
+    padding:40px 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.marcas img{
+    cursor: pointer;
+}
